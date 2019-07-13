@@ -9,3 +9,5 @@
 #else
 	#error Marble supports only Windows!
 #endif // MB_PLATFORM_WINDOWS
+
+#define BIT(x) (1 << x)
